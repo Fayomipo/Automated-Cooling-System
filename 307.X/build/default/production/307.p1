@@ -1,0 +1,1765 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"1375 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1375: extern volatile unsigned char TRISB __attribute__((address(0x086)));
+[v _TRISB `Vuc ~T0 @X0 0 e@134 ]
+"346
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 346:     struct {
+[s S12 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S12 . RD0 RD1 RD2 RD3 RD4 RD5 RD6 RD7 ]
+"345
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 345: typedef union {
+[u S11 `S12 1 ]
+[n S11 . . ]
+"357
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 357: extern volatile PORTDbits_t PORTDbits __attribute__((address(0x008)));
+[v _PORTDbits `VS11 ~T0 @X0 0 e@8 ]
+[v F842 `(v ~T0 @X0 1 tf1`ul ]
+"92 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\pic.h
+[v __delay `JF842 ~T0 @X0 0 e ]
+[p i __delay ]
+"170 ./lcd.h
+[; ;./lcd.h: 170:     _delay((unsigned long)((1)*(20000000/4000000.0))); PORTDbits.RD5 = HIGH; _delay((unsigned long)((1)*(20000000/4000000.0))); PORTB = (data & 0xf0) | (PORTB & 0x0f); _delay((unsigned long)((1)*(20000000/4000000.0))); PORTDbits.RD5 = LOW; _delay((unsigned long)((1)*(20000000/4000000.0)));
+[c E907 0 1 .. ]
+[n E907 . LOW HIGH  ]
+"216 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 216: extern volatile unsigned char PORTB __attribute__((address(0x006)));
+[v _PORTB `Vuc ~T0 @X0 0 e@6 ]
+"114 ./lcd.h
+[; ;./lcd.h: 114: void lcd_wait(void);
+[v _lcd_wait `(v ~T0 @X0 0 ef ]
+"196
+[; ;./lcd.h: 196:     void lcd_entry_mode(_Bool i_d, _Bool s);
+[v _lcd_entry_mode `(v ~T0 @X0 0 ef2`a`a ]
+"264
+[; ;./lcd.h: 264: void lcd_shift_left(signed char);
+[v _lcd_shift_left `(v ~T0 @X0 0 ef1`c ]
+"265
+[; ;./lcd.h: 265: void lcd_shift_right(signed char);
+[v _lcd_shift_right `(v ~T0 @X0 0 ef1`c ]
+"1499 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1499: extern volatile unsigned char TRISD __attribute__((address(0x088)));
+[v _TRISD `Vuc ~T0 @X0 0 e@136 ]
+[v F987 `*Cuc ~T0 @X0 1 t ]
+"194 C:\Program Files\Microchip\xc8\v2.30\pic\include\c90\stdio.h
+[v _sprintf `(i ~T0 @X0 0 e1v`*uc`*Cuc ]
+"1165 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1165:     struct {
+[s S46 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :2 `uc 1 ]
+[n S46 . ADON . GO_nDONE CHS ADCS ]
+"1172
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1172:     struct {
+[s S47 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S47 . . GO CHS0 CHS1 CHS2 ADCS0 ADCS1 ]
+"1181
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1181:     struct {
+[s S48 :2 `uc 1 :1 `uc 1 ]
+[n S48 . . nDONE ]
+"1185
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1185:     struct {
+[s S49 :2 `uc 1 :1 `uc 1 ]
+[n S49 . . GO_DONE ]
+"1164
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1164: typedef union {
+[u S45 `S46 1 `S47 1 `S48 1 `S49 1 ]
+[n S45 . . . . . ]
+"1190
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1190: extern volatile ADCON0bits_t ADCON0bits __attribute__((address(0x01F)));
+[v _ADCON0bits `VS45 ~T0 @X0 0 e@31 ]
+"1152
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1152: extern volatile unsigned char ADRESH __attribute__((address(0x01E)));
+[v _ADRESH `Vuc ~T0 @X0 0 e@30 ]
+"2222
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2222: extern volatile unsigned char ADRESL __attribute__((address(0x09E)));
+[v _ADRESL `Vuc ~T0 @X0 0 e@158 ]
+"1816
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1816: extern volatile unsigned char PR2 __attribute__((address(0x092)));
+[v _PR2 `Vuc ~T0 @X0 0 e@146 ]
+"892
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 892: extern volatile unsigned char CCPR1L __attribute__((address(0x015)));
+[v _CCPR1L `Vuc ~T0 @X0 0 e@21 ]
+"912
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 912:     struct {
+[s S35 :4 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S35 . CCP1M CCP1Y CCP1X ]
+"917
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 917:     struct {
+[s S36 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S36 . CCP1M0 CCP1M1 CCP1M2 CCP1M3 ]
+"911
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 911: typedef union {
+[u S34 `S35 1 `S36 1 ]
+[n S34 . . . ]
+"924
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 924: extern volatile CCP1CONbits_t CCP1CONbits __attribute__((address(0x017)));
+[v _CCP1CONbits `VS34 ~T0 @X0 0 e@23 ]
+"1443
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1443:     struct {
+[s S58 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S58 . TRISC0 TRISC1 TRISC2 TRISC3 TRISC4 TRISC5 TRISC6 TRISC7 ]
+"1442
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1442: typedef union {
+[u S57 `S58 1 ]
+[n S57 . . ]
+"1454
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1454: extern volatile TRISCbits_t TRISCbits __attribute__((address(0x087)));
+[v _TRISCbits `VS57 ~T0 @X0 0 e@135 ]
+"743
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 743:     struct {
+[s S29 :2 `uc 1 :1 `uc 1 :4 `uc 1 ]
+[n S29 . T2CKPS TMR2ON TOUTPS ]
+"748
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 748:     struct {
+[s S30 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S30 . T2CKPS0 T2CKPS1 . TOUTPS0 TOUTPS1 TOUTPS2 TOUTPS3 ]
+"742
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 742: typedef union {
+[u S28 `S29 1 `S30 1 ]
+[n S28 . . . ]
+"758
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 758: extern volatile T2CONbits_t T2CONbits __attribute__((address(0x012)));
+[v _T2CONbits `VS28 ~T0 @X0 0 e@18 ]
+[p mainexit ]
+"1261
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1261:     struct {
+[s S51 :3 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S51 . PS PSA T0SE T0CS INTEDG nRBPU ]
+"1269
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1269:     struct {
+[s S52 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S52 . PS0 PS1 PS2 ]
+"1260
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1260: typedef union {
+[u S50 `S51 1 `S52 1 ]
+[n S50 . . . ]
+"1275
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1275: extern volatile OPTION_REGbits_t OPTION_REGbits __attribute__((address(0x081)));
+[v _OPTION_REGbits `VS50 ~T0 @X0 0 e@129 ]
+"1325
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1325: extern volatile unsigned char TRISA __attribute__((address(0x085)));
+[v _TRISA `Vuc ~T0 @X0 0 e@133 ]
+"1437
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1437: extern volatile unsigned char TRISC __attribute__((address(0x087)));
+[v _TRISC `Vuc ~T0 @X0 0 e@135 ]
+"1561
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1561: extern volatile unsigned char TRISE __attribute__((address(0x089)));
+[v _TRISE `Vuc ~T0 @X0 0 e@137 ]
+"166
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 166: extern volatile unsigned char PORTA __attribute__((address(0x005)));
+[v _PORTA `Vuc ~T0 @X0 0 e@5 ]
+"278
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 278: extern volatile unsigned char PORTC __attribute__((address(0x007)));
+[v _PORTC `Vuc ~T0 @X0 0 e@7 ]
+"340
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 340: extern volatile unsigned char PORTD __attribute__((address(0x008)));
+[v _PORTD `Vuc ~T0 @X0 0 e@8 ]
+"402
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 402: extern volatile unsigned char PORTE __attribute__((address(0x009)));
+[v _PORTE `Vuc ~T0 @X0 0 e@9 ]
+"1159
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1159: extern volatile unsigned char ADCON0 __attribute__((address(0x01F)));
+[v _ADCON0 `Vuc ~T0 @X0 0 e@31 ]
+"2229
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2229: extern volatile unsigned char ADCON1 __attribute__((address(0x09F)));
+[v _ADCON1 `Vuc ~T0 @X0 0 e@159 ]
+"737
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 737: extern volatile unsigned char T2CON __attribute__((address(0x012)));
+[v _T2CON `Vuc ~T0 @X0 0 e@18 ]
+"730
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 730: extern volatile unsigned char TMR2 __attribute__((address(0x011)));
+[v _TMR2 `Vuc ~T0 @X0 0 e@17 ]
+"2749
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2749: extern volatile __bit RD0 __attribute__((address(0x40)));
+[v _RD0 `Vb ~T0 @X0 0 e@64 ]
+"2752
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2752: extern volatile __bit RD1 __attribute__((address(0x41)));
+[v _RD1 `Vb ~T0 @X0 0 e@65 ]
+"1 307.c
+[p x FOSC  =  HS         ]
+"2
+[p x WDTE  =  OFF        ]
+"3
+[p x PWRTE  =  OFF       ]
+"4
+[p x BOREN  =  ON        ]
+"5
+[p x LVP  =  OFF          ]
+"6
+[p x CPD  =  OFF         ]
+"7
+[p x WRT  =  OFF         ]
+"8
+[p x CP  =  OFF          ]
+"54 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 54: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"61
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 61: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"68
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 68: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"75
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 75: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"161
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 161: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"168
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 168: __asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+"218
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 218: __asm("PORTB equ 06h");
+[; <" PORTB equ 06h ;# ">
+"280
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 280: __asm("PORTC equ 07h");
+[; <" PORTC equ 07h ;# ">
+"342
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 342: __asm("PORTD equ 08h");
+[; <" PORTD equ 08h ;# ">
+"404
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 404: __asm("PORTE equ 09h");
+[; <" PORTE equ 09h ;# ">
+"436
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 436: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"456
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 456: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"534
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 534: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"596
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 596: __asm("PIR2 equ 0Dh");
+[; <" PIR2 equ 0Dh ;# ">
+"636
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 636: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"643
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 643: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"650
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 650: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"657
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 657: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"732
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 732: __asm("TMR2 equ 011h");
+[; <" TMR2 equ 011h ;# ">
+"739
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 739: __asm("T2CON equ 012h");
+[; <" T2CON equ 012h ;# ">
+"810
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 810: __asm("SSPBUF equ 013h");
+[; <" SSPBUF equ 013h ;# ">
+"817
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 817: __asm("SSPCON equ 014h");
+[; <" SSPCON equ 014h ;# ">
+"887
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 887: __asm("CCPR1 equ 015h");
+[; <" CCPR1 equ 015h ;# ">
+"894
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 894: __asm("CCPR1L equ 015h");
+[; <" CCPR1L equ 015h ;# ">
+"901
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 901: __asm("CCPR1H equ 016h");
+[; <" CCPR1H equ 016h ;# ">
+"908
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 908: __asm("CCP1CON equ 017h");
+[; <" CCP1CON equ 017h ;# ">
+"966
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 966: __asm("RCSTA equ 018h");
+[; <" RCSTA equ 018h ;# ">
+"1061
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1061: __asm("TXREG equ 019h");
+[; <" TXREG equ 019h ;# ">
+"1068
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1068: __asm("RCREG equ 01Ah");
+[; <" RCREG equ 01Ah ;# ">
+"1075
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1075: __asm("CCPR2 equ 01Bh");
+[; <" CCPR2 equ 01Bh ;# ">
+"1082
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1082: __asm("CCPR2L equ 01Bh");
+[; <" CCPR2L equ 01Bh ;# ">
+"1089
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1089: __asm("CCPR2H equ 01Ch");
+[; <" CCPR2H equ 01Ch ;# ">
+"1096
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1096: __asm("CCP2CON equ 01Dh");
+[; <" CCP2CON equ 01Dh ;# ">
+"1154
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1154: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"1161
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1161: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"1257
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1257: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"1327
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1327: __asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+"1377
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1377: __asm("TRISB equ 086h");
+[; <" TRISB equ 086h ;# ">
+"1439
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1439: __asm("TRISC equ 087h");
+[; <" TRISC equ 087h ;# ">
+"1501
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1501: __asm("TRISD equ 088h");
+[; <" TRISD equ 088h ;# ">
+"1563
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1563: __asm("TRISE equ 089h");
+[; <" TRISE equ 089h ;# ">
+"1620
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1620: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"1682
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1682: __asm("PIE2 equ 08Dh");
+[; <" PIE2 equ 08Dh ;# ">
+"1722
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1722: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"1756
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1756: __asm("SSPCON2 equ 091h");
+[; <" SSPCON2 equ 091h ;# ">
+"1818
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1818: __asm("PR2 equ 092h");
+[; <" PR2 equ 092h ;# ">
+"1825
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1825: __asm("SSPADD equ 093h");
+[; <" SSPADD equ 093h ;# ">
+"1832
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1832: __asm("SSPSTAT equ 094h");
+[; <" SSPSTAT equ 094h ;# ">
+"2001
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2001: __asm("TXSTA equ 098h");
+[; <" TXSTA equ 098h ;# ">
+"2082
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2082: __asm("SPBRG equ 099h");
+[; <" SPBRG equ 099h ;# ">
+"2089
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2089: __asm("CMCON equ 09Ch");
+[; <" CMCON equ 09Ch ;# ">
+"2159
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2159: __asm("CVRCON equ 09Dh");
+[; <" CVRCON equ 09Dh ;# ">
+"2224
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2224: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"2231
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2231: __asm("ADCON1 equ 09Fh");
+[; <" ADCON1 equ 09Fh ;# ">
+"2290
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2290: __asm("EEDATA equ 010Ch");
+[; <" EEDATA equ 010Ch ;# ">
+"2297
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2297: __asm("EEADR equ 010Dh");
+[; <" EEADR equ 010Dh ;# ">
+"2304
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2304: __asm("EEDATH equ 010Eh");
+[; <" EEDATH equ 010Eh ;# ">
+"2311
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2311: __asm("EEADRH equ 010Fh");
+[; <" EEADRH equ 010Fh ;# ">
+"2318
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2318: __asm("EECON1 equ 018Ch");
+[; <" EECON1 equ 018Ch ;# ">
+"2363
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2363: __asm("EECON2 equ 018Dh");
+[; <" EECON2 equ 018Dh ;# ">
+"91 ./lcd.h
+[; ;./lcd.h: 91: __bit lcd_RAM;
+[v _lcd_RAM `b ~T0 @X0 1 e ]
+"102
+[; ;./lcd.h: 102: __bit lcd_lines;
+[v _lcd_lines `b ~T0 @X0 1 e ]
+"109
+[; ;./lcd.h: 109: signed char lcd_cursor_col, lcd_shift_pos;
+[v _lcd_cursor_col `c ~T0 @X0 1 e ]
+[v _lcd_shift_pos `c ~T0 @X0 1 e ]
+"110
+[; ;./lcd.h: 110: signed char left_edge, right_edge;
+[v _left_edge `c ~T0 @X0 1 e ]
+[v _right_edge `c ~T0 @X0 1 e ]
+"111
+[; ;./lcd.h: 111: __bit entry_mode_i_d, entry_mode_s,
+[v _entry_mode_i_d `b ~T0 @X0 1 e ]
+[v _entry_mode_s `b ~T0 @X0 1 e ]
+"112
+[; ;./lcd.h: 112:       lcd_cursor_row;
+[v _lcd_cursor_row `b ~T0 @X0 1 e ]
+"166
+[; ;./lcd.h: 166: void lcd_send(_Bool reg, unsigned char data)
+[v _lcd_send `(v ~T0 @X0 1 ef2`a`uc ]
+"167
+[; ;./lcd.h: 167: {
+{
+[e :U _lcd_send ]
+"166
+[; ;./lcd.h: 166: void lcd_send(_Bool reg, unsigned char data)
+[v _reg `a ~T0 @X0 1 r1 ]
+[v _data `uc ~T0 @X0 1 r2 ]
+"167
+[; ;./lcd.h: 167: {
+[f ]
+"168
+[; ;./lcd.h: 168:     TRISB &= 0x0F;
+[e =& _TRISB -> -> 15 `i `Vuc ]
+"169
+[; ;./lcd.h: 169:     if (reg) PORTDbits.RD7 = 1, PORTDbits.RD6 = 0; else PORTDbits.RD7 = PORTDbits.RD6 = 0;
+[e $ ! != -> _reg `i -> 0 `i 97  ]
+[e ; = . . _PORTDbits 0 7 -> -> 1 `i `uc = . . _PORTDbits 0 6 -> -> 0 `i `uc ]
+[e $U 98  ]
+[e :U 97 ]
+[e = . . _PORTDbits 0 7 = . . _PORTDbits 0 6 -> -> 0 `i `uc ]
+[e :U 98 ]
+"170
+[; ;./lcd.h: 170:     _delay((unsigned long)((1)*(20000000/4000000.0))); PORTDbits.RD5 = HIGH; _delay((unsigned long)((1)*(20000000/4000000.0))); PORTB = (data & 0xf0) | (PORTB & 0x0f); _delay((unsigned long)((1)*(20000000/4000000.0))); PORTDbits.RD5 = LOW; _delay((unsigned long)((1)*(20000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+[e = . . _PORTDbits 0 5 -> . `E907 1 `uc ]
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+[e = _PORTB -> | & -> _data `i -> 240 `i & -> _PORTB `i -> 15 `i `uc ]
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+[e = . . _PORTDbits 0 5 -> . `E907 0 `uc ]
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+"171
+[; ;./lcd.h: 171:     _delay((unsigned long)((1)*(20000000/4000000.0))); PORTDbits.RD5 = HIGH; _delay((unsigned long)((1)*(20000000/4000000.0))); PORTB = (data << 4) | (PORTB & 0x0f); _delay((unsigned long)((1)*(20000000/4000000.0))); PORTDbits.RD5 = LOW; _delay((unsigned long)((1)*(20000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+[e = . . _PORTDbits 0 5 -> . `E907 1 `uc ]
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+[e = _PORTB -> | << -> _data `i -> 4 `i & -> _PORTB `i -> 15 `i `uc ]
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+[e = . . _PORTDbits 0 5 -> . `E907 0 `uc ]
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+"173
+[; ;./lcd.h: 173:     lcd_wait();
+[e ( _lcd_wait ..  ]
+"174
+[; ;./lcd.h: 174: }
+[e :UE 96 ]
+}
+"176
+[; ;./lcd.h: 176: char lcd_read(_Bool reg)
+[v _lcd_read `(uc ~T0 @X0 1 ef1`a ]
+"177
+[; ;./lcd.h: 177: {
+{
+[e :U _lcd_read ]
+"176
+[; ;./lcd.h: 176: char lcd_read(_Bool reg)
+[v _reg `a ~T0 @X0 1 r1 ]
+"177
+[; ;./lcd.h: 177: {
+[f ]
+"178
+[; ;./lcd.h: 178:     char data = 0;
+[v _data `uc ~T0 @X0 1 a ]
+[e = _data -> -> 0 `i `uc ]
+"180
+[; ;./lcd.h: 180:     TRISB |= 0xF0;
+[e =| _TRISB -> -> 240 `i `Vuc ]
+"181
+[; ;./lcd.h: 181:     if (reg) PORTDbits.RD7 = PORTDbits.RD6 = 1; else PORTDbits.RD7 = 0, PORTDbits.RD6 = 1;
+[e $ ! != -> _reg `i -> 0 `i 100  ]
+[e = . . _PORTDbits 0 7 = . . _PORTDbits 0 6 -> -> 1 `i `uc ]
+[e $U 101  ]
+[e :U 100 ]
+[e ; = . . _PORTDbits 0 7 -> -> 0 `i `uc = . . _PORTDbits 0 6 -> -> 1 `i `uc ]
+[e :U 101 ]
+"182
+[; ;./lcd.h: 182:     _delay((unsigned long)((1)*(20000000/4000000.0))); PORTDbits.RD5 = HIGH; _delay((unsigned long)((1)*(20000000/4000000.0))); data = PORTB & 0xf0; _delay((unsigned long)((1)*(20000000/4000000.0))); PORTDbits.RD5 = LOW; _delay((unsigned long)((1)*(20000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+[e = . . _PORTDbits 0 5 -> . `E907 1 `uc ]
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+[e = _data -> & -> _PORTB `i -> 240 `i `uc ]
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+[e = . . _PORTDbits 0 5 -> . `E907 0 `uc ]
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+"183
+[; ;./lcd.h: 183:     _delay((unsigned long)((1)*(20000000/4000000.0))); PORTDbits.RD5 = HIGH; _delay((unsigned long)((1)*(20000000/4000000.0))); data |= PORTB >> 4; _delay((unsigned long)((1)*(20000000/4000000.0))); PORTDbits.RD5 = LOW; _delay((unsigned long)((1)*(20000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+[e = . . _PORTDbits 0 5 -> . `E907 1 `uc ]
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+[e =| _data -> >> -> _PORTB `i -> 4 `i `uc ]
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+[e = . . _PORTDbits 0 5 -> . `E907 0 `uc ]
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+"185
+[; ;./lcd.h: 185:     return data;
+[e ) _data ]
+[e $UE 99  ]
+"186
+[; ;./lcd.h: 186: }
+[e :UE 99 ]
+}
+"194
+[; ;./lcd.h: 194: void lcd_clr_disp(void)
+[v _lcd_clr_disp `(v ~T0 @X0 1 ef ]
+"195
+[; ;./lcd.h: 195: {
+{
+[e :U _lcd_clr_disp ]
+[f ]
+"198
+[; ;./lcd.h: 198:     lcd_send(LOW, 0x01);
+[e ( _lcd_send (2 , -> . `E907 0 `a -> -> 1 `i `uc ]
+"199
+[; ;./lcd.h: 199:     lcd_wait();
+[e ( _lcd_wait ..  ]
+"201
+[; ;./lcd.h: 201:     lcd_cursor_row = lcd_cursor_col = lcd_shift_pos = 0;
+[e = _lcd_cursor_row -> = _lcd_cursor_col = _lcd_shift_pos -> -> 0 `i `c `b ]
+"202
+[; ;./lcd.h: 202:     lcd_entry_mode(entry_mode_i_d, entry_mode_s);
+[e ( _lcd_entry_mode (2 , -> _entry_mode_i_d `a -> _entry_mode_s `a ]
+"203
+[; ;./lcd.h: 203: }
+[e :UE 102 ]
+}
+"205
+[; ;./lcd.h: 205: void lcd_return_home(void)
+[v _lcd_return_home `(v ~T0 @X0 1 ef ]
+"206
+[; ;./lcd.h: 206: {
+{
+[e :U _lcd_return_home ]
+[f ]
+"207
+[; ;./lcd.h: 207:     lcd_send(LOW, 0x02);
+[e ( _lcd_send (2 , -> . `E907 0 `a -> -> 2 `i `uc ]
+"208
+[; ;./lcd.h: 208:     lcd_wait();
+[e ( _lcd_wait ..  ]
+"210
+[; ;./lcd.h: 210:     lcd_cursor_row = lcd_cursor_col = lcd_shift_pos = 0;
+[e = _lcd_cursor_row -> = _lcd_cursor_col = _lcd_shift_pos -> -> 0 `i `c `b ]
+"211
+[; ;./lcd.h: 211: }
+[e :UE 103 ]
+}
+"213
+[; ;./lcd.h: 213: void lcd_entry_mode(_Bool i_d, _Bool s)
+[v _lcd_entry_mode `(v ~T0 @X0 1 ef2`a`a ]
+"214
+[; ;./lcd.h: 214: {
+{
+[e :U _lcd_entry_mode ]
+"213
+[; ;./lcd.h: 213: void lcd_entry_mode(_Bool i_d, _Bool s)
+[v _i_d `a ~T0 @X0 1 r1 ]
+[v _s `a ~T0 @X0 1 r2 ]
+"214
+[; ;./lcd.h: 214: {
+[f ]
+"215
+[; ;./lcd.h: 215:     entry_mode_i_d = i_d, entry_mode_s = s;
+[e ; -> = _entry_mode_i_d _i_d `i -> = _entry_mode_s _s `i ]
+"216
+[; ;./lcd.h: 216:     lcd_send(LOW, 0x04 | ((i_d) ? 1 : 0) << 1 | ((s) ? 1 : 0));
+[e ( _lcd_send (2 , -> . `E907 0 `a -> | | -> 4 `i << ? != -> _i_d `i -> 0 `i : -> 1 `i -> 0 `i -> 1 `i ? != -> _s `i -> 0 `i : -> 1 `i -> 0 `i `uc ]
+"217
+[; ;./lcd.h: 217: }
+[e :UE 104 ]
+}
+"219
+[; ;./lcd.h: 219: void lcd_display_set(_Bool d, _Bool c, _Bool b)
+[v _lcd_display_set `(v ~T0 @X0 1 ef3`a`a`a ]
+"220
+[; ;./lcd.h: 220: {
+{
+[e :U _lcd_display_set ]
+"219
+[; ;./lcd.h: 219: void lcd_display_set(_Bool d, _Bool c, _Bool b)
+[v _d `a ~T0 @X0 1 r1 ]
+[v _c `a ~T0 @X0 1 r2 ]
+[v _b `a ~T0 @X0 1 r3 ]
+"220
+[; ;./lcd.h: 220: {
+[f ]
+"221
+[; ;./lcd.h: 221:     lcd_send(LOW, 0x08 | ((d) ? 1 : 0) << 2 | ((c) ? 1 : 0) << 1 | ((b) ? 1 : 0));
+[e ( _lcd_send (2 , -> . `E907 0 `a -> | | | -> 8 `i << ? != -> _d `i -> 0 `i : -> 1 `i -> 0 `i -> 2 `i << ? != -> _c `i -> 0 `i : -> 1 `i -> 0 `i -> 1 `i ? != -> _b `i -> 0 `i : -> 1 `i -> 0 `i `uc ]
+"222
+[; ;./lcd.h: 222: }
+[e :UE 105 ]
+}
+"224
+[; ;./lcd.h: 224: void lcd_cur_disp_shift(_Bool s_c, _Bool r_l)
+[v _lcd_cur_disp_shift `(v ~T0 @X0 1 ef2`a`a ]
+"225
+[; ;./lcd.h: 225: {
+{
+[e :U _lcd_cur_disp_shift ]
+"224
+[; ;./lcd.h: 224: void lcd_cur_disp_shift(_Bool s_c, _Bool r_l)
+[v _s_c `a ~T0 @X0 1 r1 ]
+[v _r_l `a ~T0 @X0 1 r2 ]
+"225
+[; ;./lcd.h: 225: {
+[f ]
+"226
+[; ;./lcd.h: 226:     lcd_send(LOW, 0x10 | ((s_c) ? 1 : 0) << 3 | ((r_l) ? 1 : 0) << 2);
+[e ( _lcd_send (2 , -> . `E907 0 `a -> | | -> 16 `i << ? != -> _s_c `i -> 0 `i : -> 1 `i -> 0 `i -> 3 `i << ? != -> _r_l `i -> 0 `i : -> 1 `i -> 0 `i -> 2 `i `uc ]
+"227
+[; ;./lcd.h: 227: }
+[e :UE 106 ]
+}
+"229
+[; ;./lcd.h: 229: void lcd_function_set(_Bool dl, _Bool n, _Bool f)
+[v _lcd_function_set `(v ~T0 @X0 1 ef3`a`a`a ]
+"230
+[; ;./lcd.h: 230: {
+{
+[e :U _lcd_function_set ]
+"229
+[; ;./lcd.h: 229: void lcd_function_set(_Bool dl, _Bool n, _Bool f)
+[v _dl `a ~T0 @X0 1 r1 ]
+[v _n `a ~T0 @X0 1 r2 ]
+[v _f `a ~T0 @X0 1 r3 ]
+"230
+[; ;./lcd.h: 230: {
+[f ]
+"231
+[; ;./lcd.h: 231:     lcd_send(LOW, 0x20 | ((dl) ? 1 : 0) << 4 | ((n) ? 1 : 0) << 3 | ((f) ? 1 : 0) << 2);
+[e ( _lcd_send (2 , -> . `E907 0 `a -> | | | -> 32 `i << ? != -> _dl `i -> 0 `i : -> 1 `i -> 0 `i -> 4 `i << ? != -> _n `i -> 0 `i : -> 1 `i -> 0 `i -> 3 `i << ? != -> _f `i -> 0 `i : -> 1 `i -> 0 `i -> 2 `i `uc ]
+"232
+[; ;./lcd.h: 232:     lcd_lines = ((n) ? 1 : 0);
+[e = _lcd_lines -> ? != -> _n `i -> 0 `i : -> 1 `i -> 0 `i `b ]
+"233
+[; ;./lcd.h: 233: }
+[e :UE 107 ]
+}
+"235
+[; ;./lcd.h: 235: __bit lcd_set_cgram_adr(unsigned char address)
+[v _lcd_set_cgram_adr `(b ~T0 @X0 1 ef1`uc ]
+"236
+[; ;./lcd.h: 236: {
+{
+[e :U _lcd_set_cgram_adr ]
+"235
+[; ;./lcd.h: 235: __bit lcd_set_cgram_adr(unsigned char address)
+[v _address `uc ~T0 @X0 1 r1 ]
+"236
+[; ;./lcd.h: 236: {
+[f ]
+"237
+[; ;./lcd.h: 237:     if (address < 0x40) {
+[e $ ! < -> _address `i -> 64 `i 109  ]
+{
+"238
+[; ;./lcd.h: 238:         lcd_RAM = 1;
+[e = _lcd_RAM -> -> 1 `i `b ]
+"239
+[; ;./lcd.h: 239:         lcd_send(LOW, 0x40 | address);
+[e ( _lcd_send (2 , -> . `E907 0 `a -> | -> 64 `i -> _address `i `uc ]
+"240
+[; ;./lcd.h: 240:     } else
+}
+[e $U 110  ]
+[e :U 109 ]
+"241
+[; ;./lcd.h: 241:         return 0;
+[e ) -> -> 0 `i `b ]
+[e $UE 108  ]
+[e :U 110 ]
+"243
+[; ;./lcd.h: 243:     return 1;
+[e ) -> -> 1 `i `b ]
+[e $UE 108  ]
+"244
+[; ;./lcd.h: 244: }
+[e :UE 108 ]
+}
+"246
+[; ;./lcd.h: 246: __bit lcd_set_ddram_adr(unsigned char address)
+[v _lcd_set_ddram_adr `(b ~T0 @X0 1 ef1`uc ]
+"247
+[; ;./lcd.h: 247: {
+{
+[e :U _lcd_set_ddram_adr ]
+"246
+[; ;./lcd.h: 246: __bit lcd_set_ddram_adr(unsigned char address)
+[v _address `uc ~T0 @X0 1 r1 ]
+"247
+[; ;./lcd.h: 247: {
+[f ]
+"248
+[; ;./lcd.h: 248:     if (address <= (lcd_lines == 0 ? 0x4f : 0x67) + entry_mode_i_d) {
+[e $ ! <= -> _address `i + ? == -> _lcd_lines `i -> 0 `i : -> 79 `i -> 103 `i -> _entry_mode_i_d `i 112  ]
+{
+"249
+[; ;./lcd.h: 249:         lcd_RAM = 0;
+[e = _lcd_RAM -> -> 0 `i `b ]
+"250
+[; ;./lcd.h: 250:         lcd_send(LOW, 0x80 | address);
+[e ( _lcd_send (2 , -> . `E907 0 `a -> | -> 128 `i -> _address `i `uc ]
+"251
+[; ;./lcd.h: 251:     } else
+}
+[e $U 113  ]
+[e :U 112 ]
+"252
+[; ;./lcd.h: 252:         return 0;
+[e ) -> -> 0 `i `b ]
+[e $UE 111  ]
+[e :U 113 ]
+"254
+[; ;./lcd.h: 254:     return 1;
+[e ) -> -> 1 `i `b ]
+[e $UE 111  ]
+"255
+[; ;./lcd.h: 255: }
+[e :UE 111 ]
+}
+"259
+[; ;./lcd.h: 259: unsigned char lcd_read_address(void)
+[v _lcd_read_address `(uc ~T0 @X0 1 ef ]
+"260
+[; ;./lcd.h: 260: {
+{
+[e :U _lcd_read_address ]
+[f ]
+"261
+[; ;./lcd.h: 261:     return lcd_read(LOW) & 0x7f;
+[e ) -> & -> ( _lcd_read (1 -> . `E907 0 `a `i -> 127 `i `uc ]
+[e $UE 114  ]
+"262
+[; ;./lcd.h: 262: }
+[e :UE 114 ]
+}
+"267
+[; ;./lcd.h: 267: void lcd_write_char(char data)
+[v _lcd_write_char `(v ~T0 @X0 1 ef1`uc ]
+"268
+[; ;./lcd.h: 268: {
+{
+[e :U _lcd_write_char ]
+"267
+[; ;./lcd.h: 267: void lcd_write_char(char data)
+[v _data `uc ~T0 @X0 1 r1 ]
+"268
+[; ;./lcd.h: 268: {
+[f ]
+"269
+[; ;./lcd.h: 269:     if (lcd_cursor_col == (entry_mode_i_d ? right_edge+1 : left_edge-1))
+[e $ ! == -> _lcd_cursor_col `i ? _entry_mode_i_d : + -> _right_edge `i -> 1 `i - -> _left_edge `i -> 1 `i 116  ]
+"270
+[; ;./lcd.h: 270:         return;
+[e $UE 115  ]
+[e :U 116 ]
+"272
+[; ;./lcd.h: 272:     lcd_send(HIGH, data);
+[e ( _lcd_send (2 , -> . `E907 1 `a -> _data `uc ]
+"274
+[; ;./lcd.h: 274:     if (entry_mode_i_d && lcd_cursor_col == lcd_shift_pos + 15)
+[e $ ! && _entry_mode_i_d == -> _lcd_cursor_col `i + -> _lcd_shift_pos `i -> 15 `i 117  ]
+"275
+[; ;./lcd.h: 275:         lcd_shift_left(1);
+[e ( _lcd_shift_left (1 -> -> 1 `i `c ]
+[e $U 118  ]
+"276
+[; ;./lcd.h: 276:     else if (!entry_mode_i_d && lcd_cursor_col == lcd_shift_pos)
+[e :U 117 ]
+[e $ ! && ! _entry_mode_i_d == -> _lcd_cursor_col `i -> _lcd_shift_pos `i 119  ]
+"277
+[; ;./lcd.h: 277:         lcd_shift_right(1);
+[e ( _lcd_shift_right (1 -> -> 1 `i `c ]
+[e :U 119 ]
+[e :U 118 ]
+"279
+[; ;./lcd.h: 279:     lcd_cursor_col += entry_mode_i_d ? 1 : -1;
+[e =+ _lcd_cursor_col -> ? _entry_mode_i_d : -> 1 `i -U -> 1 `i `c ]
+"280
+[; ;./lcd.h: 280:     if (entry_mode_s) lcd_shift_pos += entry_mode_i_d ? 1 : -1;
+[e $ ! _entry_mode_s 120  ]
+[e =+ _lcd_shift_pos -> ? _entry_mode_i_d : -> 1 `i -U -> 1 `i `c ]
+[e :U 120 ]
+"281
+[; ;./lcd.h: 281: }
+[e :UE 115 ]
+}
+"283
+[; ;./lcd.h: 283: unsigned char lcd_read_char(void)
+[v _lcd_read_char `(uc ~T0 @X0 1 ef ]
+"284
+[; ;./lcd.h: 284: {
+{
+[e :U _lcd_read_char ]
+[f ]
+"285
+[; ;./lcd.h: 285:     lcd_cursor_col += entry_mode_i_d ? 1 : -1;
+[e =+ _lcd_cursor_col -> ? _entry_mode_i_d : -> 1 `i -U -> 1 `i `c ]
+"287
+[; ;./lcd.h: 287:     return lcd_read(HIGH);
+[e ) -> ( _lcd_read (1 -> . `E907 1 `a `uc ]
+[e $UE 121  ]
+"288
+[; ;./lcd.h: 288: }
+[e :UE 121 ]
+}
+"295
+[; ;./lcd.h: 295: void lcd_wait(void)
+[v _lcd_wait `(v ~T0 @X0 1 ef ]
+"296
+[; ;./lcd.h: 296: {
+{
+[e :U _lcd_wait ]
+[f ]
+"297
+[; ;./lcd.h: 297:     while (lcd_read(LOW) & 0x80) _delay((unsigned long)((1)*(20000000/4000000.0)));
+[e $U 123  ]
+[e :U 124 ]
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+[e :U 123 ]
+[e $ != & -> ( _lcd_read (1 -> . `E907 0 `a `i -> 128 `i -> 0 `i 124  ]
+[e :U 125 ]
+"298
+[; ;./lcd.h: 298: }
+[e :UE 122 ]
+}
+"301
+[; ;./lcd.h: 301: void lcd_init(_Bool n, _Bool f)
+[v _lcd_init `(v ~T0 @X0 1 ef2`a`a ]
+"302
+[; ;./lcd.h: 302: {
+{
+[e :U _lcd_init ]
+"301
+[; ;./lcd.h: 301: void lcd_init(_Bool n, _Bool f)
+[v _n `a ~T0 @X0 1 r1 ]
+[v _f `a ~T0 @X0 1 r2 ]
+"302
+[; ;./lcd.h: 302: {
+[f ]
+"303
+[; ;./lcd.h: 303:     TRISD &= 0x1f;
+[e =& _TRISD -> -> 31 `i `Vuc ]
+"304
+[; ;./lcd.h: 304:     n = ((n) ? 1 : 0);
+[e = _n -> ? != -> _n `i -> 0 `i : -> 1 `i -> 0 `i `a ]
+"305
+[; ;./lcd.h: 305:     f = ((f) ? 1 : 0);
+[e = _f -> ? != -> _f `i -> 0 `i : -> 1 `i -> 0 `i `a ]
+"313
+[; ;./lcd.h: 313:     TRISB &= 0x0F; PORTDbits.RD7 = PORTDbits.RD6 = 0;
+[e =& _TRISB -> -> 15 `i `Vuc ]
+[e = . . _PORTDbits 0 7 = . . _PORTDbits 0 6 -> -> 0 `i `uc ]
+"314
+[; ;./lcd.h: 314:     _delay((unsigned long)((1)*(20000000/4000000.0))); PORTDbits.RD5 = HIGH; _delay((unsigned long)((1)*(20000000/4000000.0))); PORTB = (0x20) | (PORTB & 0x0f); _delay((unsigned long)((1)*(20000000/4000000.0))); PORTDbits.RD5 = LOW; _delay((unsigned long)((1)*(20000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+[e = . . _PORTDbits 0 5 -> . `E907 1 `uc ]
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+[e = _PORTB -> | -> 32 `i & -> _PORTB `i -> 15 `i `uc ]
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+[e = . . _PORTDbits 0 5 -> . `E907 0 `uc ]
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+"315
+[; ;./lcd.h: 315:     _delay((unsigned long)((40)*(20000000/4000.0)));
+[e ( __delay (1 -> * -> -> 40 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+"316
+[; ;./lcd.h: 316:     _delay((unsigned long)((1)*(20000000/4000000.0))); PORTDbits.RD5 = HIGH; _delay((unsigned long)((1)*(20000000/4000000.0))); PORTB = (0x20) | (PORTB & 0x0f); _delay((unsigned long)((1)*(20000000/4000000.0))); PORTDbits.RD5 = LOW; _delay((unsigned long)((1)*(20000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+[e = . . _PORTDbits 0 5 -> . `E907 1 `uc ]
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+[e = _PORTB -> | -> 32 `i & -> _PORTB `i -> 15 `i `uc ]
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+[e = . . _PORTDbits 0 5 -> . `E907 0 `uc ]
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+"317
+[; ;./lcd.h: 317:     _delay((unsigned long)((40)*(20000000/4000.0)));
+[e ( __delay (1 -> * -> -> 40 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+"319
+[; ;./lcd.h: 319:     lcd_function_set(((0) ? 1 : 0), n, f);
+[e ( _lcd_function_set (3 , , -> ? != -> 0 `i -> 0 `i : -> 1 `i -> 0 `i `a _n _f ]
+"320
+[; ;./lcd.h: 320:     lcd_display_set(LOW, LOW, LOW);
+[e ( _lcd_display_set (3 , , -> . `E907 0 `a -> . `E907 0 `a -> . `E907 0 `a ]
+"321
+[; ;./lcd.h: 321:     lcd_clr_disp();
+[e ( _lcd_clr_disp ..  ]
+"322
+[; ;./lcd.h: 322:     lcd_entry_mode(HIGH, LOW);
+[e ( _lcd_entry_mode (2 , -> . `E907 1 `a -> . `E907 0 `a ]
+"323
+[; ;./lcd.h: 323:     lcd_display_set(HIGH, HIGH, HIGH);
+[e ( _lcd_display_set (3 , , -> . `E907 1 `a -> . `E907 1 `a -> . `E907 1 `a ]
+"325
+[; ;./lcd.h: 325:     _delay((unsigned long)((5)*(20000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+"327
+[; ;./lcd.h: 327:     left_edge = 0;
+[e = _left_edge -> -> 0 `i `c ]
+"328
+[; ;./lcd.h: 328:     right_edge = lcd_lines ? 0x27 : 0x4f;
+[e = _right_edge -> ? _lcd_lines : -> 39 `i -> 79 `i `c ]
+"329
+[; ;./lcd.h: 329: }
+[e :UE 126 ]
+}
+"341
+[; ;./lcd.h: 341: void lcd_set_cursor(_Bool row, signed char col)
+[v _lcd_set_cursor `(v ~T0 @X0 1 ef2`a`c ]
+"342
+[; ;./lcd.h: 342: {
+{
+[e :U _lcd_set_cursor ]
+"341
+[; ;./lcd.h: 341: void lcd_set_cursor(_Bool row, signed char col)
+[v _row `a ~T0 @X0 1 r1 ]
+[v _col `c ~T0 @X0 1 r2 ]
+"342
+[; ;./lcd.h: 342: {
+[f ]
+"343
+[; ;./lcd.h: 343:     lcd_set_ddram_adr((((row) ? 1 : 0) ? 0x40 : 0x00) + ((col) < (right_edge + entry_mode_i_d) ? (col) : (right_edge + entry_mode_i_d)));
+[e ( _lcd_set_ddram_adr (1 -> + ? != ? != -> _row `i -> 0 `i : -> 1 `i -> 0 `i -> 0 `i : -> 64 `i -> 0 `i ? < -> _col `i + -> _right_edge `i -> _entry_mode_i_d `i : -> _col `i + -> _right_edge `i -> _entry_mode_i_d `i `uc ]
+"346
+[; ;./lcd.h: 346:     lcd_cursor_row = lcd_lines ? ((row) ? 1 : 0) : 0;
+[e = _lcd_cursor_row -> ? _lcd_lines : ? != -> _row `i -> 0 `i : -> 1 `i -> 0 `i -> 0 `i `b ]
+"347
+[; ;./lcd.h: 347:     lcd_cursor_col = ((((col) > (left_edge - !entry_mode_i_d) ? (col) : (left_edge - !entry_mode_i_d))) < (right_edge + entry_mode_i_d) ? (((col) > (left_edge - !entry_mode_i_d) ? (col) : (left_edge - !entry_mode_i_d))) : (right_edge + entry_mode_i_d));
+[e = _lcd_cursor_col -> ? < ? > -> _col `i - -> _left_edge `i -> ! _entry_mode_i_d `i : -> _col `i - -> _left_edge `i -> ! _entry_mode_i_d `i + -> _right_edge `i -> _entry_mode_i_d `i : ? > -> _col `i - -> _left_edge `i -> ! _entry_mode_i_d `i : -> _col `i - -> _left_edge `i -> ! _entry_mode_i_d `i + -> _right_edge `i -> _entry_mode_i_d `i `c ]
+"350
+[; ;./lcd.h: 350:     if (lcd_cursor_col < lcd_shift_pos)
+[e $ ! < -> _lcd_cursor_col `i -> _lcd_shift_pos `i 128  ]
+"351
+[; ;./lcd.h: 351:         lcd_shift_right(lcd_shift_pos - lcd_cursor_col);
+[e ( _lcd_shift_right (1 -> - -> _lcd_shift_pos `i -> _lcd_cursor_col `i `c ]
+[e $U 129  ]
+"352
+[; ;./lcd.h: 352:     else if (lcd_cursor_col > lcd_shift_pos + 15)
+[e :U 128 ]
+[e $ ! > -> _lcd_cursor_col `i + -> _lcd_shift_pos `i -> 15 `i 130  ]
+"353
+[; ;./lcd.h: 353:         lcd_shift_left(lcd_cursor_col - lcd_shift_pos);
+[e ( _lcd_shift_left (1 -> - -> _lcd_cursor_col `i -> _lcd_shift_pos `i `c ]
+[e :U 130 ]
+[e :U 129 ]
+"354
+[; ;./lcd.h: 354: }
+[e :UE 127 ]
+}
+"357
+[; ;./lcd.h: 357: void lcd_goto_begin(void)
+[v _lcd_goto_begin `(v ~T0 @X0 1 ef ]
+"358
+[; ;./lcd.h: 358: {
+{
+[e :U _lcd_goto_begin ]
+[f ]
+"359
+[; ;./lcd.h: 359:     lcd_set_cursor(lcd_cursor_row, left_edge);
+[e ( _lcd_set_cursor (2 , -> _lcd_cursor_row `a _left_edge ]
+"360
+[; ;./lcd.h: 360: }
+[e :UE 131 ]
+}
+"363
+[; ;./lcd.h: 363: void lcd_goto_end(void)
+[v _lcd_goto_end `(v ~T0 @X0 1 ef ]
+"364
+[; ;./lcd.h: 364: {
+{
+[e :U _lcd_goto_end ]
+[f ]
+"365
+[; ;./lcd.h: 365:     lcd_set_cursor(lcd_cursor_row, right_edge);
+[e ( _lcd_set_cursor (2 , -> _lcd_cursor_row `a _right_edge ]
+"366
+[; ;./lcd.h: 366: }
+[e :UE 132 ]
+}
+"371
+[; ;./lcd.h: 371: void lcd_clr_row(unsigned char row)
+[v _lcd_clr_row `(v ~T0 @X0 1 ef1`uc ]
+"372
+[; ;./lcd.h: 372: {
+{
+[e :U _lcd_clr_row ]
+"371
+[; ;./lcd.h: 371: void lcd_clr_row(unsigned char row)
+[v _row `uc ~T0 @X0 1 r1 ]
+"372
+[; ;./lcd.h: 372: {
+[f ]
+"373
+[; ;./lcd.h: 373:     signed char prev_row = lcd_cursor_row, prev_col = lcd_cursor_col,
+[v _prev_row `c ~T0 @X0 1 a ]
+[e = _prev_row -> _lcd_cursor_row `c ]
+[v _prev_col `c ~T0 @X0 1 a ]
+[e = _prev_col _lcd_cursor_col ]
+"374
+[; ;./lcd.h: 374:                   i = right_edge + 1;
+[v _i `c ~T0 @X0 1 a ]
+[e = _i -> + -> _right_edge `i -> 1 `i `c ]
+"376
+[; ;./lcd.h: 376:     lcd_set_ddram_adr(((row) ? 1 : 0) ? 0x40 : 0x00);
+[e ( _lcd_set_ddram_adr (1 -> ? != ? != -> _row `i -> 0 `i : -> 1 `i -> 0 `i -> 0 `i : -> 64 `i -> 0 `i `uc ]
+"377
+[; ;./lcd.h: 377:     while (i--) lcd_send(HIGH, ' ');
+[e $U 134  ]
+[e :U 135 ]
+[e ( _lcd_send (2 , -> . `E907 1 `a -> -> 32 `ui `uc ]
+[e :U 134 ]
+[e $ != -> -- _i -> -> 1 `i `c `i -> 0 `i 135  ]
+[e :U 136 ]
+"379
+[; ;./lcd.h: 379:     lcd_set_cursor(prev_row, prev_col);
+[e ( _lcd_set_cursor (2 , -> _prev_row `a _prev_col ]
+"380
+[; ;./lcd.h: 380: }
+[e :UE 133 ]
+}
+"384
+[; ;./lcd.h: 384: void lcd_clr_curr_row(void)
+[v _lcd_clr_curr_row `(v ~T0 @X0 1 ef ]
+"385
+[; ;./lcd.h: 385: {
+{
+[e :U _lcd_clr_curr_row ]
+[f ]
+"386
+[; ;./lcd.h: 386:     lcd_clr_row(lcd_cursor_row);
+[e ( _lcd_clr_row (1 -> _lcd_cursor_row `uc ]
+"387
+[; ;./lcd.h: 387:     lcd_set_cursor(lcd_cursor_row, 0);
+[e ( _lcd_set_cursor (2 , -> _lcd_cursor_row `a -> -> 0 `i `c ]
+"388
+[; ;./lcd.h: 388: }
+[e :UE 137 ]
+}
+"391
+[; ;./lcd.h: 391: void lcd_cursor_up(void)
+[v _lcd_cursor_up `(v ~T0 @X0 1 ef ]
+"392
+[; ;./lcd.h: 392: {
+{
+[e :U _lcd_cursor_up ]
+[f ]
+"393
+[; ;./lcd.h: 393:     if (lcd_cursor_row)
+[e $ ! _lcd_cursor_row 139  ]
+"394
+[; ;./lcd.h: 394:         lcd_set_cursor(lcd_cursor_row-1, lcd_cursor_col);
+[e ( _lcd_set_cursor (2 , -> - -> _lcd_cursor_row `i -> 1 `i `a _lcd_cursor_col ]
+[e :U 139 ]
+"395
+[; ;./lcd.h: 395: }
+[e :UE 138 ]
+}
+"398
+[; ;./lcd.h: 398: void lcd_cursor_down(void)
+[v _lcd_cursor_down `(v ~T0 @X0 1 ef ]
+"399
+[; ;./lcd.h: 399: {
+{
+[e :U _lcd_cursor_down ]
+[f ]
+"400
+[; ;./lcd.h: 400:     if (lcd_cursor_row < lcd_lines)
+[e $ ! < -> _lcd_cursor_row `i -> _lcd_lines `i 141  ]
+"401
+[; ;./lcd.h: 401:         lcd_set_cursor(lcd_cursor_row+1, lcd_cursor_col);
+[e ( _lcd_set_cursor (2 , -> + -> _lcd_cursor_row `i -> 1 `i `a _lcd_cursor_col ]
+[e :U 141 ]
+"402
+[; ;./lcd.h: 402: }
+[e :UE 140 ]
+}
+"405
+[; ;./lcd.h: 405: void lcd_cursor_left(signed char n)
+[v _lcd_cursor_left `(v ~T0 @X0 1 ef1`c ]
+"406
+[; ;./lcd.h: 406: {
+{
+[e :U _lcd_cursor_left ]
+"405
+[; ;./lcd.h: 405: void lcd_cursor_left(signed char n)
+[v _n `c ~T0 @X0 1 r1 ]
+"406
+[; ;./lcd.h: 406: {
+[f ]
+"407
+[; ;./lcd.h: 407:     while(n-- > 0 && lcd_cursor_col-- > left_edge) {
+[e $U 143  ]
+[e :U 144 ]
+{
+"408
+[; ;./lcd.h: 408:         lcd_cur_disp_shift(0, 0);
+[e ( _lcd_cur_disp_shift (2 , -> -> 0 `i `a -> -> 0 `i `a ]
+"409
+[; ;./lcd.h: 409:         if (lcd_cursor_col == lcd_shift_pos)
+[e $ ! == -> _lcd_cursor_col `i -> _lcd_shift_pos `i 146  ]
+"411
+[; ;./lcd.h: 411:             lcd_shift_right(1);
+[e ( _lcd_shift_right (1 -> -> 1 `i `c ]
+[e :U 146 ]
+"412
+[; ;./lcd.h: 412:             while(n--) {
+[e $U 147  ]
+[e :U 148 ]
+{
+"413
+[; ;./lcd.h: 413:                 lcd_cur_disp_shift(0, 0);
+[e ( _lcd_cur_disp_shift (2 , -> -> 0 `i `a -> -> 0 `i `a ]
+"414
+[; ;./lcd.h: 414:                 lcd_shift_right(1);
+[e ( _lcd_shift_right (1 -> -> 1 `i `c ]
+"415
+[; ;./lcd.h: 415:             }
+}
+[e :U 147 ]
+"412
+[; ;./lcd.h: 412:             while(n--) {
+[e $ != -> -- _n -> -> 1 `i `c `i -> 0 `i 148  ]
+[e :U 149 ]
+"416
+[; ;./lcd.h: 416:     }
+}
+[e :U 143 ]
+"407
+[; ;./lcd.h: 407:     while(n-- > 0 && lcd_cursor_col-- > left_edge) {
+[e $ && > -> -- _n -> -> 1 `i `c `i -> 0 `i > -> -- _lcd_cursor_col -> -> 1 `i `c `i -> _left_edge `i 144  ]
+[e :U 145 ]
+"418
+[; ;./lcd.h: 418:     if (lcd_cursor_col < left_edge) lcd_cursor_col = left_edge;
+[e $ ! < -> _lcd_cursor_col `i -> _left_edge `i 150  ]
+[e = _lcd_cursor_col _left_edge ]
+[e :U 150 ]
+"419
+[; ;./lcd.h: 419: }
+[e :UE 142 ]
+}
+"422
+[; ;./lcd.h: 422: void lcd_cursor_right(signed char n)
+[v _lcd_cursor_right `(v ~T0 @X0 1 ef1`c ]
+"423
+[; ;./lcd.h: 423: {
+{
+[e :U _lcd_cursor_right ]
+"422
+[; ;./lcd.h: 422: void lcd_cursor_right(signed char n)
+[v _n `c ~T0 @X0 1 r1 ]
+"423
+[; ;./lcd.h: 423: {
+[f ]
+"424
+[; ;./lcd.h: 424:     while(n-- > 0 && lcd_cursor_col++ < right_edge) {
+[e $U 152  ]
+[e :U 153 ]
+{
+"425
+[; ;./lcd.h: 425:         lcd_cur_disp_shift(0, 1);
+[e ( _lcd_cur_disp_shift (2 , -> -> 0 `i `a -> -> 1 `i `a ]
+"426
+[; ;./lcd.h: 426:         if (lcd_cursor_col == lcd_shift_pos + 15)
+[e $ ! == -> _lcd_cursor_col `i + -> _lcd_shift_pos `i -> 15 `i 155  ]
+"428
+[; ;./lcd.h: 428:             lcd_shift_left(1);
+[e ( _lcd_shift_left (1 -> -> 1 `i `c ]
+[e :U 155 ]
+"429
+[; ;./lcd.h: 429:             while(n--) {
+[e $U 156  ]
+[e :U 157 ]
+{
+"430
+[; ;./lcd.h: 430:                 lcd_cur_disp_shift(0, 1);
+[e ( _lcd_cur_disp_shift (2 , -> -> 0 `i `a -> -> 1 `i `a ]
+"431
+[; ;./lcd.h: 431:                 lcd_shift_left(1);
+[e ( _lcd_shift_left (1 -> -> 1 `i `c ]
+"432
+[; ;./lcd.h: 432:             }
+}
+[e :U 156 ]
+"429
+[; ;./lcd.h: 429:             while(n--) {
+[e $ != -> -- _n -> -> 1 `i `c `i -> 0 `i 157  ]
+[e :U 158 ]
+"433
+[; ;./lcd.h: 433:     }
+}
+[e :U 152 ]
+"424
+[; ;./lcd.h: 424:     while(n-- > 0 && lcd_cursor_col++ < right_edge) {
+[e $ && > -> -- _n -> -> 1 `i `c `i -> 0 `i < -> ++ _lcd_cursor_col -> -> 1 `i `c `i -> _right_edge `i 153  ]
+[e :U 154 ]
+"435
+[; ;./lcd.h: 435:     if (lcd_cursor_col > right_edge) lcd_cursor_col = right_edge;
+[e $ ! > -> _lcd_cursor_col `i -> _right_edge `i 159  ]
+[e = _lcd_cursor_col _right_edge ]
+[e :U 159 ]
+"436
+[; ;./lcd.h: 436: }
+[e :UE 151 ]
+}
+"439
+[; ;./lcd.h: 439: void lcd_shift_left(signed char n)
+[v _lcd_shift_left `(v ~T0 @X0 1 ef1`c ]
+"440
+[; ;./lcd.h: 440: {
+{
+[e :U _lcd_shift_left ]
+"439
+[; ;./lcd.h: 439: void lcd_shift_left(signed char n)
+[v _n `c ~T0 @X0 1 r1 ]
+"440
+[; ;./lcd.h: 440: {
+[f ]
+"441
+[; ;./lcd.h: 441:     signed char edge = right_edge - 15;
+[v _edge `c ~T0 @X0 1 a ]
+[e = _edge -> - -> _right_edge `i -> 15 `i `c ]
+"443
+[; ;./lcd.h: 443:     while(n-- && lcd_shift_pos++ < edge) lcd_cur_disp_shift(1, 0);
+[e $U 161  ]
+[e :U 162 ]
+[e ( _lcd_cur_disp_shift (2 , -> -> 1 `i `a -> -> 0 `i `a ]
+[e :U 161 ]
+[e $ && != -> -- _n -> -> 1 `i `c `i -> 0 `i < -> ++ _lcd_shift_pos -> -> 1 `i `c `i -> _edge `i 162  ]
+[e :U 163 ]
+"445
+[; ;./lcd.h: 445:     if (lcd_shift_pos > edge) lcd_shift_pos = edge;
+[e $ ! > -> _lcd_shift_pos `i -> _edge `i 164  ]
+[e = _lcd_shift_pos _edge ]
+[e :U 164 ]
+"446
+[; ;./lcd.h: 446: }
+[e :UE 160 ]
+}
+"449
+[; ;./lcd.h: 449: void lcd_shift_right(signed char n)
+[v _lcd_shift_right `(v ~T0 @X0 1 ef1`c ]
+"450
+[; ;./lcd.h: 450: {
+{
+[e :U _lcd_shift_right ]
+"449
+[; ;./lcd.h: 449: void lcd_shift_right(signed char n)
+[v _n `c ~T0 @X0 1 r1 ]
+"450
+[; ;./lcd.h: 450: {
+[f ]
+"451
+[; ;./lcd.h: 451:     while(n-- && lcd_shift_pos-- > left_edge) lcd_cur_disp_shift(1, 1);
+[e $U 166  ]
+[e :U 167 ]
+[e ( _lcd_cur_disp_shift (2 , -> -> 1 `i `a -> -> 1 `i `a ]
+[e :U 166 ]
+[e $ && != -> -- _n -> -> 1 `i `c `i -> 0 `i > -> -- _lcd_shift_pos -> -> 1 `i `c `i -> _left_edge `i 167  ]
+[e :U 168 ]
+"453
+[; ;./lcd.h: 453:     if (lcd_shift_pos < left_edge) lcd_shift_pos = left_edge;
+[e $ ! < -> _lcd_shift_pos `i -> _left_edge `i 169  ]
+[e = _lcd_shift_pos _left_edge ]
+[e :U 169 ]
+"454
+[; ;./lcd.h: 454: }
+[e :UE 165 ]
+}
+"457
+[; ;./lcd.h: 457: void lcd_backspace(signed char n)
+[v _lcd_backspace `(v ~T0 @X0 1 ef1`c ]
+"458
+[; ;./lcd.h: 458: {
+{
+[e :U _lcd_backspace ]
+"457
+[; ;./lcd.h: 457: void lcd_backspace(signed char n)
+[v _n `c ~T0 @X0 1 r1 ]
+"458
+[; ;./lcd.h: 458: {
+[f ]
+"459
+[; ;./lcd.h: 459:     signed char edge = entry_mode_i_d ? left_edge-1 : right_edge+1;
+[v _edge `c ~T0 @X0 1 a ]
+[e = _edge -> ? _entry_mode_i_d : - -> _left_edge `i -> 1 `i + -> _right_edge `i -> 1 `i `c ]
+"462
+[; ;./lcd.h: 462:     if (entry_mode_i_d) lcd_cursor_left(1);
+[e $ ! _entry_mode_i_d 171  ]
+[e ( _lcd_cursor_left (1 -> -> 1 `i `c ]
+[e $U 172  ]
+"463
+[; ;./lcd.h: 463:     else lcd_cursor_right(1);
+[e :U 171 ]
+[e ( _lcd_cursor_right (1 -> -> 1 `i `c ]
+[e :U 172 ]
+"465
+[; ;./lcd.h: 465:     lcd_entry_mode(!entry_mode_i_d, LOW);
+[e ( _lcd_entry_mode (2 , -> -> ! _entry_mode_i_d `i `a -> . `E907 0 `a ]
+"467
+[; ;./lcd.h: 467:     while(n-- && lcd_cursor_col != edge) lcd_write_char(' ');
+[e $U 173  ]
+[e :U 174 ]
+[e ( _lcd_write_char (1 -> -> 32 `ui `uc ]
+[e :U 173 ]
+[e $ && != -> -- _n -> -> 1 `i `c `i -> 0 `i != -> _lcd_cursor_col `i -> _edge `i 174  ]
+[e :U 175 ]
+"469
+[; ;./lcd.h: 469:     lcd_entry_mode(!entry_mode_i_d, LOW);
+[e ( _lcd_entry_mode (2 , -> -> ! _entry_mode_i_d `i `a -> . `E907 0 `a ]
+"472
+[; ;./lcd.h: 472:     if (entry_mode_i_d) lcd_cursor_right(1);
+[e $ ! _entry_mode_i_d 176  ]
+[e ( _lcd_cursor_right (1 -> -> 1 `i `c ]
+[e $U 177  ]
+"473
+[; ;./lcd.h: 473:     else lcd_cursor_left(1);
+[e :U 176 ]
+[e ( _lcd_cursor_left (1 -> -> 1 `i `c ]
+[e :U 177 ]
+"474
+[; ;./lcd.h: 474: }
+[e :UE 170 ]
+}
+"477
+[; ;./lcd.h: 477: unsigned char lcd_write_str(const char * const restrict s)
+[v _lcd_write_str `(uc ~T0 @X0 1 ef1`C*Cuc ]
+"478
+[; ;./lcd.h: 478: {
+{
+[e :U _lcd_write_str ]
+[v F989 `*Cuc ~T0 @X0 1 t ]
+"477
+[; ;./lcd.h: 477: unsigned char lcd_write_str(const char * const restrict s)
+[v _s `C*Cuc ~T0 @X0 1 r1 ]
+"478
+[; ;./lcd.h: 478: {
+[f ]
+[v F991 `*Cuc ~T0 @X0 1 t ]
+"479
+[; ;./lcd.h: 479:     const char * restrict p = s;
+[v _p `*Cuc ~T0 @X0 1 a ]
+[e = _p _s ]
+"481
+[; ;./lcd.h: 481:     while(*p) lcd_write_char(*p++);
+[e $U 179  ]
+[e :U 180 ]
+[e ( _lcd_write_char (1 *U ++ _p * -> -> 1 `i `x -> -> # *U _p `i `x ]
+[e :U 179 ]
+[e $ != -> *U _p `i -> 0 `i 180  ]
+[e :U 181 ]
+"483
+[; ;./lcd.h: 483:     return p - s;
+[e ) -> / - -> _p `x -> _s `x -> -> # *U _p `i `x `uc ]
+[e $UE 178  ]
+"484
+[; ;./lcd.h: 484: }
+[e :UE 178 ]
+}
+"489
+[; ;./lcd.h: 489: unsigned char lcd_write_int(unsigned long n)
+[v _lcd_write_int `(uc ~T0 @X0 1 ef1`ul ]
+"490
+[; ;./lcd.h: 490: {
+{
+[e :U _lcd_write_int ]
+"489
+[; ;./lcd.h: 489: unsigned char lcd_write_int(unsigned long n)
+[v _n `ul ~T0 @X0 1 r1 ]
+"490
+[; ;./lcd.h: 490: {
+[f ]
+[v F995 `uc ~T0 @X0 -> 12 `i s ]
+[i F995
+:U ..
+"491
+[; ;./lcd.h: 491:     char s[12] = {0}, *p = s + sizeof(s) - 1;
+-> -> 0 `i `uc
+..
+]
+[v _s `uc ~T0 @X0 -> 12 `i a ]
+[e = _s F995 ]
+[v _p `*uc ~T0 @X0 1 a ]
+[e = _p - + &U _s * -> -> # _s `ui `ux -> -> # *U &U _s `ui `ux * -> -> 1 `i `x -> -> # *U + &U _s * -> -> # _s `ui `ux -> -> # *U &U _s `ui `ux `i `x ]
+"493
+[; ;./lcd.h: 493:     if ((long)n < 0) {
+[e $ ! < -> _n `l -> -> 0 `i `l 183  ]
+{
+"494
+[; ;./lcd.h: 494:         lcd_write_char('-');
+[e ( _lcd_write_char (1 -> -> 45 `ui `uc ]
+"495
+[; ;./lcd.h: 495:         p--;
+[e -- _p * -> -> 1 `i `x -> -> # *U _p `i `x ]
+"496
+[; ;./lcd.h: 496:         n = -(long)n;
+[e = _n -> -U -> _n `l `ul ]
+"497
+[; ;./lcd.h: 497:     }
+}
+[e :U 183 ]
+"499
+[; ;./lcd.h: 499:     do *--p = '0' + n % 10;
+[e :U 186 ]
+[e = *U =- _p * -> -> 1 `i `x -> -> # *U _p `i `x -> + -> -> 48 `ui `ul % _n -> -> -> 10 `i `l `ul `uc ]
+[e $ && > _p &U _s != =/ _n -> -> -> 10 `i `l `ul -> -> -> 0 `i `l `ul 186  ]
+[e :U 185 ]
+"501
+[; ;./lcd.h: 501:     lcd_write_str(p);
+[e ( _lcd_write_str (1 -> _p `*Cuc ]
+"503
+[; ;./lcd.h: 503:     return s + sizeof(s) - p - 1;
+[e ) -> - / - -> + &U _s * -> -> # _s `ui `ux -> -> # *U &U _s `ui `ux `x -> _p `x -> -> # *U + &U _s * -> -> # _s `ui `ux -> -> # *U &U _s `ui `ux `i `x -> 1 `i `uc ]
+[e $UE 182  ]
+"504
+[; ;./lcd.h: 504: }
+[e :UE 182 ]
+}
+"511
+[; ;./lcd.h: 511: unsigned char lcd_write_float(double n, unsigned char dp)
+[v _lcd_write_float `(uc ~T0 @X0 1 ef2`d`uc ]
+"512
+[; ;./lcd.h: 512: {
+{
+[e :U _lcd_write_float ]
+"511
+[; ;./lcd.h: 511: unsigned char lcd_write_float(double n, unsigned char dp)
+[v _n `d ~T0 @X0 1 r1 ]
+[v _dp `uc ~T0 @X0 1 r2 ]
+"512
+[; ;./lcd.h: 512: {
+[f ]
+"513
+[; ;./lcd.h: 513:     char s[17];
+[v _s `uc ~T0 @X0 -> 17 `i a ]
+"515
+[; ;./lcd.h: 515:     sprintf(s, "%.*f", dp, n);
+[e ( _sprintf (1 , , (. , &U _s :s 1C -> _dp `i _n ]
+"516
+[; ;./lcd.h: 516:     sprintf(s, "%.16s", s);
+[e ( _sprintf (1 , (. , &U _s :s 2C &U _s ]
+"518
+[; ;./lcd.h: 518:     return lcd_write_str(s);
+[e ) ( _lcd_write_str (1 -> &U _s `*Cuc ]
+[e $UE 187  ]
+"519
+[; ;./lcd.h: 519: }
+[e :UE 187 ]
+}
+"524
+[; ;./lcd.h: 524: void lcd_scroll_anim
+[v _lcd_scroll_anim `(v ~T0 @X0 1 ef4`uc`c`c`Cuc ]
+"526
+[; ;./lcd.h: 526: {
+{
+[e :U _lcd_scroll_anim ]
+"525
+[; ;./lcd.h: 525: (unsigned char n, signed char start, signed char end, const unsigned char speed)
+[v _n `uc ~T0 @X0 1 r1 ]
+[v _start `c ~T0 @X0 1 r2 ]
+[v _end `c ~T0 @X0 1 r3 ]
+[v _speed `Cuc ~T0 @X0 1 r4 ]
+"526
+[; ;./lcd.h: 526: {
+[f ]
+"527
+[; ;./lcd.h: 527:     if (start > end) return;
+[e $ ! > -> _start `i -> _end `i 189  ]
+[e $UE 188  ]
+[e :U 189 ]
+"528
+[; ;./lcd.h: 528:     start = ((left_edge) > (start) ? (left_edge) : (start)), end = ((end) < (right_edge) ? (end) : (right_edge));
+[e ; = _start -> ? > -> _left_edge `i -> _start `i : -> _left_edge `i -> _start `i `c = _end -> ? < -> _end `i -> _right_edge `i : -> _end `i -> _right_edge `i `c ]
+"530
+[; ;./lcd.h: 530:     unsigned char i = ((end - start) > (15) ? (end - start) : (15)) - 15, j, k;
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> - ? > - -> _end `i -> _start `i -> 15 `i : - -> _end `i -> _start `i -> 15 `i -> 15 `i `uc ]
+[v _j `uc ~T0 @X0 1 a ]
+[v _k `uc ~T0 @X0 1 a ]
+"532
+[; ;./lcd.h: 532:     lcd_set_cursor(lcd_cursor_row, start);
+[e ( _lcd_set_cursor (2 , -> _lcd_cursor_row `a _start ]
+"533
+[; ;./lcd.h: 533:     while (n--) {
+[e $U 190  ]
+[e :U 191 ]
+{
+"534
+[; ;./lcd.h: 534:         _delay((unsigned long)((500)*(20000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+"535
+[; ;./lcd.h: 535:         for (j = i; j--;) {
+{
+[e = _j _i ]
+[e $U 196  ]
+[e :U 193 ]
+{
+"536
+[; ;./lcd.h: 536:             lcd_shift_left(1);
+[e ( _lcd_shift_left (1 -> -> 1 `i `c ]
+"537
+[; ;./lcd.h: 537:             for (k = speed; k--;) _delay((unsigned long)((50)*(20000000/4000.0)));
+{
+[e = _k _speed ]
+[e $U 200  ]
+[e :U 197 ]
+[e ( __delay (1 -> * -> -> 50 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+[e :U 200 ]
+[e $ != -> -- _k -> -> 1 `i `uc `i -> 0 `i 197  ]
+[e :U 198 ]
+}
+"538
+[; ;./lcd.h: 538:         }
+}
+[e :U 196 ]
+[e $ != -> -- _j -> -> 1 `i `uc `i -> 0 `i 193  ]
+[e :U 194 ]
+}
+"539
+[; ;./lcd.h: 539:         _delay((unsigned long)((500)*(20000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+"540
+[; ;./lcd.h: 540:         for (j = i; j--;) {
+{
+[e = _j _i ]
+[e $U 204  ]
+[e :U 201 ]
+{
+"541
+[; ;./lcd.h: 541:             lcd_shift_right(1);
+[e ( _lcd_shift_right (1 -> -> 1 `i `c ]
+"542
+[; ;./lcd.h: 542:             for (k = speed; k--;) _delay((unsigned long)((50)*(20000000/4000.0)));
+{
+[e = _k _speed ]
+[e $U 208  ]
+[e :U 205 ]
+[e ( __delay (1 -> * -> -> 50 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+[e :U 208 ]
+[e $ != -> -- _k -> -> 1 `i `uc `i -> 0 `i 205  ]
+[e :U 206 ]
+}
+"543
+[; ;./lcd.h: 543:         }
+}
+[e :U 204 ]
+[e $ != -> -- _j -> -> 1 `i `uc `i -> 0 `i 201  ]
+[e :U 202 ]
+}
+"544
+[; ;./lcd.h: 544:     }
+}
+[e :U 190 ]
+"533
+[; ;./lcd.h: 533:     while (n--) {
+[e $ != -> -- _n -> -> 1 `i `uc `i -> 0 `i 191  ]
+[e :U 192 ]
+"545
+[; ;./lcd.h: 545:     _delay((unsigned long)((500)*(20000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+"546
+[; ;./lcd.h: 546: }
+[e :UE 188 ]
+}
+"16 307.c
+[v _temperature `i ~T0 @X0 1 e ]
+[v _temperature1 `i ~T0 @X0 1 e ]
+[v _last_temp `i ~T0 @X0 1 e ]
+[i _last_temp
+-> 0 `i
+]
+"18
+[v _update_temp `(v ~T0 @X0 1 ef ]
+"19
+{
+[e :U _update_temp ]
+[f ]
+"20
+[e = . . _ADCON0bits 0 3 -> -> 0 `i `uc ]
+"21
+[e ( __delay (1 -> * -> -> 2 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+"22
+[e = . . _ADCON0bits 3 1 -> -> 1 `i `uc ]
+"23
+[e $U 210  ]
+[e :U 211 ]
+"24
+[e = _temperature + * -> _ADRESH `i -> 256 `i -> _ADRESL `i ]
+[e :U 210 ]
+"23
+[e $ != -> . . _ADCON0bits 3 1 `i -> 0 `i 211  ]
+[e :U 212 ]
+"25
+[e = _temperature1 -> / -> _temperature `d .2.046 `i ]
+"26
+[e $ ! != _last_temp _temperature1 213  ]
+{
+"27
+[e ( _lcd_backspace (1 -> -> 5 `i `c ]
+"28
+[e ( _lcd_write_int (1 -> -> _temperature1 `l `ul ]
+"29
+[e = _last_temp _temperature1 ]
+"30
+}
+[e :U 213 ]
+"32
+[e ( __delay (1 -> * -> -> 50 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+"33
+[e :UE 209 ]
+}
+"35
+[v _pwm_init `(v ~T0 @X0 1 ef ]
+"36
+{
+[e :U _pwm_init ]
+[f ]
+"37
+[e = _PR2 -> -> 255 `i `uc ]
+"38
+[e = _CCPR1L = . . _CCP1CONbits 0 2 = . . _CCP1CONbits 0 1 -> -> 0 `i `uc ]
+"39
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+"40
+[e = . . _T2CONbits 0 0 -> -> 0 `i `uc ]
+"41
+[e = . . _CCP1CONbits 0 0 -> -> 12 `i `uc ]
+"42
+[e :UE 214 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"48
+[v _main `(v ~T0 @X0 1 ef ]
+"49
+{
+[e :U _main ]
+[f ]
+"50
+[e = . . _OPTION_REGbits 0 5 -> -> 1 `i `uc ]
+"51
+[e = _TRISA -> -> 1 `i `uc ]
+"52
+[e = _TRISB = _TRISC = _TRISD = _TRISE -> -> 0 `i `uc ]
+"53
+[e = _PORTA = _PORTB = _PORTC = _PORTD = _PORTE -> -> 0 `i `uc ]
+"54
+[e = _ADCON0 -> -> 193 `i `uc ]
+"55
+[e = _ADCON1 -> -> 142 `i `uc ]
+"57
+[e = _T2CON -> -> 0 `i `uc ]
+"58
+[e ( _pwm_init ..  ]
+"59
+[e = _TMR2 -> -> 0 `i `uc ]
+[e = . . _T2CONbits 0 1 -> -> 1 `i `uc ]
+"61
+[e ( _lcd_init (2 , -> -> 1 `i `a -> -> 0 `i `a ]
+"62
+[e ( _lcd_set_cursor (2 , -> -> 0 `i `a -> -> 0 `i `c ]
+"63
+[e ( _lcd_write_str (1 :s 3C ]
+"64
+[e ( _lcd_set_cursor (2 , -> -> 1 `i `a -> -> 4 `i `c ]
+"65
+[e ( _lcd_write_str (1 :s 4C ]
+"66
+[e ( _lcd_set_cursor (2 , -> -> 1 `i `a -> -> 0 `i `c ]
+"68
+[e = . . _PORTDbits 0 3 -> -> 1 `i `uc ]
+"72
+[e :U 217 ]
+"73
+{
+"74
+[e ( _update_temp ..  ]
+"76
+[e $ ! > _temperature1 -> 50 `i 219  ]
+"77
+{
+"78
+[e = _RD0 -> -> 1 `i `b ]
+"79
+[e = _CCPR1L -> / * + -> _PR2 `i -> 1 `i -> 99 `i -> 100 `i `uc ]
+"80
+}
+[e $U 220  ]
+"81
+[e :U 219 ]
+[e $ ! >= _temperature1 -> 40 `i 221  ]
+"82
+{
+"83
+[e = _RD0 -> -> 1 `i `b ]
+"84
+[e = _CCPR1L -> / * + -> _PR2 `i -> 1 `i -> 66 `i -> 100 `i `uc ]
+"85
+}
+[e $U 222  ]
+"86
+[e :U 221 ]
+[e $ ! >= _temperature1 -> 30 `i 223  ]
+"87
+{
+"88
+[e = _RD0 -> -> 1 `i `b ]
+"89
+[e = _CCPR1L -> / * + -> _PR2 `i -> 1 `i -> 33 `i -> 100 `i `uc ]
+"90
+}
+[e $U 224  ]
+"91
+[e :U 223 ]
+"92
+{
+"93
+[e = _RD0 -> -> 0 `i `b ]
+"94
+[e = _CCPR1L -> / * + -> _PR2 `i -> 1 `i -> 0 `i -> 100 `i `uc ]
+"95
+}
+[e :U 224 ]
+[e :U 222 ]
+[e :U 220 ]
+"97
+[e $ ! >= _temperature1 -> 55 `i 225  ]
+"98
+{
+"99
+[e = _RD1 -> -> 1 `i `b ]
+"100
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 10 `i ]
+[e $U 229  ]
+[e :U 226 ]
+[e ( _update_temp ..  ]
+[e :U 229 ]
+[e $ != -- _i -> 1 `i -> 0 `i 226  ]
+[e :U 227 ]
+}
+"102
+[e = _RD1 -> -> 0 `i `b ]
+"103
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 10 `i ]
+[e $U 233  ]
+[e :U 230 ]
+[e ( _update_temp ..  ]
+[e :U 233 ]
+[e $ != -- _i -> 1 `i -> 0 `i 230  ]
+[e :U 231 ]
+}
+"105
+}
+[e :U 225 ]
+"107
+}
+[e :U 216 ]
+[e $U 217  ]
+[e :U 218 ]
+"108
+[e $UE 215  ]
+"109
+[e :UE 215 ]
+}
+[p f _sprintf 8855552 ]
+[a 2C 37 46 49 54 115 0 ]
+[a 1C 37 46 42 102 0 ]
+[a 4C 18446744073709551536 67 32 0 ]
+[a 3C 84 101 109 112 101 114 97 116 117 114 101 32 105 115 58 32 0 ]
